@@ -43,14 +43,14 @@ sqlite3 – Backend database
 Face-Recognition-Attendance/
 
 ├── main.py          # Main GUI + Logic                                                                                                                                                           
-├──  util.py         # Face recognition + GUI helper functions 
+├── util.py         # Face recognition + GUI helper functions 
 ├── test.py:         #Spoof detection module 
 ├── attendance.db    #store data   
 ├── db(folder):      #store images in pickle(binary format)
 └── README.md        # Project documentation
 
 
-(Your structure may vary — adjust as needed.)
+
 
 📌 How It Works
 
