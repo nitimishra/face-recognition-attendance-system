@@ -42,11 +42,16 @@ sqlite3 – Backend database
 📁 Project Structure (Example)
 Face-Recognition-Attendance/
 
-├── main.py          # Main GUI + Logic                                                                                                                                                           
-├── util.py         # Face recognition + GUI helper functions 
-├── test.py:         #Spoof detection module 
-├── attendance.db    #store data   
+├── main.py          # Main GUI + Logic
+
+├── util.py         # Face recognition + GUI helper functions
+
+├── test.py:         #Spoof detection module
+
+├── attendance.db    #store data
+
 ├── db(folder):      #store images in pickle(binary format)
+
 └── README.md        # Project documentation
 
 
@@ -84,7 +89,7 @@ Built with Tkinter for easy usage.
 
 📦 Installation
 1. Clone the repository
-git clone https://github.com/your-username/face-recognition-attendance.git
+git clone https://github.com/nitimishra/face-recognition-attendance.git
 
 2. Install dependencies
 pip install opencv-python face_recognition pillow
