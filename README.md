@@ -1,8 +1,8 @@
-Face Recognition Based Attendance System
+# Face Recognition Based Attendance System
 
 A Face Recognition Based Attendance System built using Python, combining image processing, machine learning, and a user-friendly GUI to automate attendance marking with high accuracy. The system captures real-time images, recognizes registered faces, and stores attendance records with date and time in a SQLite database.
 
-🚀 Features
+## 🚀 Features
 
 📸 Real-time Face Capture using OpenCV
 
@@ -20,26 +20,23 @@ A Face Recognition Based Attendance System built using Python, combining image p
 
 📂 Organized Dataset and Attendance Records
 
-🛠 Tech Stack
-Programming Language
 
-Python
+## Python Libraries Used
 
-Libraries Used
+- OpenCV – Real-time video capture & image processing
 
-OpenCV – Real-time video capture & image processing
+- face_recognition – Face detection & encoding
 
-face_recognition – Face detection & encoding
+- Pillow – Image loading & processing
 
-Pillow – Image loading & processing
+- pickle – Storing face encodings
 
-pickle – Storing face encodings
+- tkinter – GUI framework
 
-tkinter – GUI framework
+- sqlite3 – Backend database
 
-sqlite3 – Backend database
+## 📁 Project Structure (Example)
 
-📁 Project Structure (Example)
 Face-Recognition-Attendance/
 
 ├── main.py          # Main GUI + Logic
@@ -57,54 +54,53 @@ Face-Recognition-Attendance/
 
 
 
-📌 How It Works
+## 📌 How It Works
 
-User captures face through the camera.
+- User captures face through the camera.
 
-System detects and encodes face using face_recognition.
+- System detects and encodes face using face_recognition.
 
-Encoded data is stored using pickle.
+- Encoded data is stored using pickle.
 
-During attendance, the camera scans faces in real time.
+- During attendance, the camera scans faces in real time.
 
-When a match is found, the system:
+- When a match is found, the system:
 
-Marks attendance
+- Marks attendance
 
-Stores Name, Date & Time in SQLite3 database
+- Stores Name, Date & Time in SQLite3 database
 
-Attendance can be viewed/exported through the GUI.
+- Attendance can be viewed/exported through the GUI.
 
-🖥 GUI Screens
+## 🖥 GUI Screens
 
-Add New Student / Capture Face
+- Add New Student / Capture Face
 
-Train / Encode Faces
+- Train / Encode Faces
 
-Mark Attendance (camera-based)
+- Mark Attendance (camera-based)
 
-View Attendance Records
+- View Attendance Records
 
-Built with Tkinter for easy usage.
 
-📦 Installation
-1. Clone the repository
+## 📦 Installation
+1. Clone the repository:
 git clone https://github.com/nitimishra/face-recognition-attendance.git
 
-2. Install dependencies
+2. Install dependencies:
 pip install opencv-python face_recognition pillow
 
-3. Run the project
+3. Run the project:
 python main.py
 
-📊 Future Enhancements
+## 📊 Future Enhancements
 
-🔐 Add login/authentication for admin
+- 🔐 Add login/authentication for admin
 
-🌐 Add cloud database support (Firebase/MySQL)
+- 🌐 Add cloud database support (Firebase/MySQL)
 
-🚀 Improve accuracy using deep learning models
+- 🚀 Improve accuracy using deep learning models
 
-🤝 Acknowledgment
+## 🤝 Acknowledgment
 
 This project was developed as a practical implementation of face recognition technology using Python. Special thanks to the open-source community behind OpenCV, face_recognition, and Tkinter.
